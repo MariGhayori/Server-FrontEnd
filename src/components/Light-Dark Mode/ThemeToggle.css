@@ -1,0 +1,62 @@
+:root {
+    --light-bg-color: rgb(243, 243, 243);
+    --light-text-color: white;
+    --light-sidebar-bg: #503e9e;
+    --light-sidebar-bg-hover: #ded6ff;
+    --light-sidebar-text-hover: #1b1533;
+
+    --dark-bg-color: #363A45;
+    --dark-text-color: white;
+    --dark-sidebar-bg: #272B34;
+    --dark-sidebar-bg-hover: #ece8fc;
+    --dark-sidebar-text-hover: #272B34;
+}
+
+#light {
+    background-color: var(--light-bg-color);
+    color: var(--light-text-color);
+}
+#light .sidebarBG {
+    background-color: var(--light-sidebar-bg);
+}
+#light .sidebarLogo,
+#light .sidebarText ,
+#light .sidebarIcons
+{
+    color: var(--light-text-color);
+}
+#light .sidebarText:hover,
+#light .sideMenuText:hover
+{
+    color: var(--light-sidebar-text-hover);
+    background-color: var(--light-sidebar-bg-hover);
+}
+
+#dark { 
+    background-color: var(--dark-bg-color);
+    color: var(--dark-text-color);
+}
+#dark .sidebarBG {
+    background-color: var(--dark-sidebar-bg);
+}
+#dark .sidebarLogo,
+#dark .sidebarText ,
+#dark .sidebarIcons
+{
+    color: var(--dark-text-color);
+}
+#dark .sidebarText:hover,
+#dark .sideMenuText:hover
+{
+    color: var(--dark-sidebar-text-hover);
+    background-color: var(--dark-sidebar-bg-hover);
+}
+
+.iconPlacement {
+    margin-left: -0.25rem;
+}
+
+.labelMaster {
+    margin-left: 0.90rem;
+    font-size: 15px;
+}

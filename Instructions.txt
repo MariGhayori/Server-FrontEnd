@@ -1,0 +1,29 @@
+Installation:
+    1. npx create-react-app the-name
+    2. npm install -D tailwindcss postcss autoprefixer
+    3. npx tailwindcss Installation
+    4. npm install react-icons --save
+    5. npm install react-switch
+
+Configurations: 
+    - tailwindcss.config.js:
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+        content: [
+            "./src/**/*.{js,jsx,ts,tsx}",
+        ],
+        theme: {
+            extend: {
+            colors: {
+                "dark-bg": "#081A51",
+                "light-color": "rgba(255,255,255,0.18)"
+            }
+            },
+        },
+        plugins: [],
+        }
+    
+    - index.css:
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
