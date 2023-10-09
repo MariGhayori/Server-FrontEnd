@@ -1,3 +1,8 @@
+// Components
+import { useTranslation } from 'react-i18next';
+import { useCustomTranslation } from '../Language/useTranslation';
+
+// ICONs
 import {BiSolidServer} from "react-icons/bi";
 import {FaUserCog, FaToggleOff} from "react-icons/fa";
 import {MdPolicy} from "react-icons/md";
@@ -5,7 +10,6 @@ import {RiInstallFill, RiDashboardFill, RiLogoutBoxRFill} from "react-icons/ri";
 import {IoIosInformationCircle} from "react-icons/io";
 import {BsFileEarmarkCheckFill} from "react-icons/bs";
 import {MdOutlineLanguage} from "react-icons/md";
-
 
 const Menus = [
     {
@@ -16,192 +20,192 @@ const Menus = [
     },
     {
         // DONE
-        title: 'Server Management',
+        title: 'Server_Management',
         icon: <BiSolidServer />,
         submenu: true,
         submenuItems: [
             { 
-                title: "Server Management",
-                parent: "Server Management",
+                title: "Server_Management",
+                parent: "Server_Management",
                 submenu: true,
                 submenuItems: [
                     { 
-                        title: "SMS Configuration",
-                        parent: "Server Management",
+                        title: "SMS_Configuration",
+                        parent: "Server_Management",
                     },
-                    { title: "Email Configuration"},
-                    { title: "Syslog Servers"},
-                    { title: "Brand Management"},
-                    { title: "System Backup"},
-                    { title: "Scheduled Services"},
-                    { title: "SNMP Settings"},
-                    { title: "Resource Consumption Notification Settings"},
-                    { title: "NTP Settings"},
+                    { title: "Email_Configuration"},
+                    { title: "Syslog_Servers"},
+                    { title: "Brand_Management"},
+                    { title: "System_Backup"},
+                    { title: "Scheduled_Services"},
+                    { title: "SNMP_Settings"},
+                    { title: "Resource_Consumption_Notification_Settings"},
+                    { title: "NTP_Settings"},
                 ],
             },
             { 
                 title: "Security",
-                parent: "Server Management",
+                parent: "Server_Management",
                 submenu: true,
                 submenuItems: [
                     { 
                         title: "Certificates",
                         parent: "Security",
                     },
-                    { title: "Login policies"},
-                    { title: "Password Complexity Settings"},
-                    { title: "IP-Based Access Policies"},
+                    { title: "Login_Policies"},
+                    { title: "Password_Complexity_Settings"},
+                    { title: "IP_Based_Access_Policies"},
                     { 
-                        title: "Authentication System",
+                        title: "Authentication_System",
                         parent: "Security",
                         submenu: true,
                         submenuItems: [
                             { 
-                                title: "Active-Directory/LDAP",
-                                parent: "Authentication System",
+                                title: "Active_Directory_LDAP",
+                                parent: "Authentication_System",
                             },
-                            { title: "RADIUS"},
-                            { title: "TACACS+"},
+                            { title: "Radius"},
+                            { title: "TACACS"},
                         ],
                     },
                 ],
             },
             { 
                 title: "Reports",
-                parent: "Server Management",
+                parent: "Server_Management",
                 submenu: true,
                 submenuItems: [
                     { 
-                        title: "Security Reports",
+                        title: "Security_Reports",
                         parent: "Reports",
                         submenu: true,
                         submenuItems: [
                             { 
-                                title: "Login Reports",
-                                parent: "Security Reports",
+                                title: "Login_Reports",
+                                parent: "Security_Reports",
                             },
-                            { title: "Blocked IPs"},
-                            { title: "User's Sessions"},
+                            { title: "Blocked_IPs"},
+                            { title: "Users_Sessions"},
                         ],
                     },
                     { 
-                        title: "System Reports",
+                        title: "System_Reports",
                         parent: "Reports",
                         submenu: true,
                         submenuItems: [
                             { 
-                                title: "Registered Logs",
-                                parent: "System Reports",
+                                title: "Registered_Logs",
+                                parent: "System_Reports",
                             },
-                            { title: "Messages History"},
-                            { title: "Consumption of Software Resources"},
+                            { title: "Messages_History"},
+                            { title: "Consumption_of_Software_Resources"},
                         ],
                     },
                 ],
             },
             { 
-                title: "User Management",
-                parent: "Server Management",
+                title: "User_Management",
+                parent: "Server_Management",
                 submenu: true,
                 submenuItems: [
                     { 
                         title: "Users",
-                        parent: "User Management",
+                        parent: "User_Management",
                     },
                     { title: "Roles"},
-                    { title: "User Groups"},
-                    { title: "Manage Role Assignments"},
+                    { title: "User_Groups"},
+                    { title: "Manage_Role_Assignments"},
                 ],
             },
         ],
     },
     {
         // DONE
-        title: 'Client Management',
+        title: 'Client_Management',
         icon: <FaUserCog />,
         submenu: true,
         submenuItems: [
             { 
-                title: "Clients Management",
-                parent: "Client Management",
+                title: "Clients_Management",
+                parent: "Client_Management",
                 submenu: true,
                 submenuItems: [
                     { 
                         title: "Clients",
-                        parent: "Client Management",
+                        parent: "Client_Management",
                     },
-                    { title: "Group of Clients"},
+                    { title: "Group_of_Clients"},
                 ],
             },
             { 
-                title: "Personel Management",
-                parent: "Client Management",
+                title: "Personel_Management",
+                parent: "Client_Management",
                 submenu: true,
                 submenuItems: [
                     { 
                         title: "Personel",
-                        parent: "Personel Management",
+                        parent: "Personel_Management",
                     },
-                    { title: "Group of Personel"},
-                    { title: "Recover Personel from AD/LDAP Servers"},
+                    { title: "Group_of_Personel"},
+                    { title: "Recover_Personel_From_AD_LDAP_Servers"},
                 ],
             },
-            { title: "Organizational Departments"},
-            { title: "Key Packages"},
+            { title: "Organizational_Departments"},
+            { title: "Key_Packages"},
         ],
     },
     {
         // DONE
-        title: 'Policy Management',
+        title: 'Policy_Management',
         icon: <MdPolicy />,
         submenu: true,
         submenuItems: [
             { 
-                title: "Printer Control",
-                parent: 'Policy Management',
+                title: "Printer_Control",
+                parent: 'Policy_Management',
             },
-            { title: "Pars Keep Control"},
-            { title: "Internet Control"},
-            { title: "Network Control"},
-            { title: "Hardware Control"},
-            { title: "Document Control"},
+            { title: "Pars_Keep_Control"},
+            { title: "Internet_Control"},
+            { title: "Network_Control"},
+            { title: "Hardware_Control"},
+            { title: "Document_Control"},
             { title: "Monitoring"},
-            { title: "General settings policy"},
+            { title: "General_Settings_Policy"},
         ],
     },
     {
         // DONE
-        title: 'Agent Management',
+        title: 'Agent_Management',
         icon: <RiInstallFill />,
         submenu: true,
         submenuItems: [
             { 
-                title: "Download Agent's Installation File",
-                parent: "Agent Management",
+                title: "Download_Agent_Installation_File",
+                parent: "Agent_Management",
             },
-            { title: "Update Agent"},
+            { title: "Upfate_Agent"},
         ],
     },
     {
         // DONE
-        title: 'Basic Information',
+        title: 'Basic_Information',
         icon: <IoIosInformationCircle />,
         submenu: true,
         submenuItems: [
             { 
-                title: "Web Address",
-                parent: "Basic Information",
+                title: "Web_Address",
+                parent: "Basic_Information",
             },
-            { title: "Web Content"},
-            { title: "Email Address"},
+            { title: "Web_Content"},
+            { title: "Email_Address"},
             { title: "Hardware"},
-            { title: "Document Packages"},
-            { title: "Document Tagging"},
-            { title: "Encryption Keys"},
+            { title: "Document_Packages"},
+            { title: "Document_Tagging"},
+            { title: "Encryption_Keys"},
         ],
     },
     {
-        title: 'File Access Requests',
+        title: 'File_Access_Requests',
         icon: <BsFileEarmarkCheckFill />,
     },
     {

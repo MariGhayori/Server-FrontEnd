@@ -1,3 +1,83 @@
 {
-    "Welcome-to-React" : "خوش آمدید"
+    "Brand_Name": "داشبورد DLP",
+    
+    "Dashboard": "داشبورد",
+
+    "Server_Management": "مدیریت سرور",
+            "SMS_Configuration": "پیکربندی پیامک",
+            "Email_Configuration": "پیکربندی ایمیل",
+            "Syslog_Servers": "سرور های Syslog",
+            "Brand_Management": "مدیریت نام تجاری",
+            "System_Backup": "پشتیبان گیری از سیستم",
+            "Scheduled_Services": "خدمات برنامه ریزی شده",
+            "SNMP_Settings": "تنظیمات  SNMP",
+            "Resource_Consumption_Notification_Settings": "تنظیمات اعلان مصرف منابع",
+            "NTP_Settings": "تنظیمات NTP",
+
+    "Security" : "امنیت",
+        "Certificates": "گواهی ها",
+        "Login_Policies": "سیاست های ورود",
+        "Password_Complexity_Settings": "تنظیمات پیچیدگی رمزعبور",
+        "IP_Based_Access_Policies": "سیاست های دسترسی مبتنی بر IP",
+        "Authentication_System": "سیستم احراز هویت",
+            "Active_Directory_LDAP": "Active-Directory/LDAP",
+            "Radius": "RADIUS",
+            "TACACS": "TACACS+",
+
+    "Reports" : "گزارش ها",
+        "Security_Reports": "گزارش های امنیتی",
+            "Login_Reports": "گزارشات ورود",
+            "Blocked_IPs": "آی پی های مسدود شده",
+            "Users_Sessions": "جلسات کاربر",
+        "System_Reports": "گزارشات سیستم",
+            "Registered_Logs": "گزارش های ثبت شده",
+            "Messages_History": "تاریخچه پیام ها",
+            "Consumption_of_Software_Resources": "مصرف منابع نرم افزاری",
+
+    "User_Management": "مدیریت کاربر",
+        "Users": "کاربران",
+        "Roles": "نقش ها",
+        "User_Groups": "گروه های کاربری",
+        "Manage_Role_Assignments": "مدیریت تکالیف نقش",
+
+    "Client_Management": "مدیریت مشتری",
+            "Clients": "مشتریان",
+            "Group_of_Clients": "گروه مشتریان",
+        "Personel_Management": "مدیریت پرسنل",
+            "Personel": "پرسنل",
+            "Group_of_Personel": "گروه پرسنل",
+            "Recover_Personel_From_AD_LDAP_Servers": "بازیابی پرسنل از سرورهای AD/LDAP",
+        "Organizational_Departments": "بخش های سازمانی",
+        "Key_Packages": "بسته های کلیدی",
+
+    "Policy_Management": "مدیریت سیاست",
+        "Printer_Control": "کنترل چاپگر",
+        "Pars_Keep_Control": "کنترل پارس کیپ",
+        "Internet_Control": "کنترل اینترنت",
+        "Network_Control": "کنترل شبکه",
+        "Hardware_Control": "کنترل سخت افزار",
+        "Document_Control": "کنترل اسناد",
+        "Monitoring": "مانیتورینگ",
+        "General_Settings_Policy": "سیاست تنظیمات عمومی",
+
+    "Agent_Management": "مدیریت عامل",
+        "Download_Agent_Installation_File": "دانلود فایل نصب عامل",
+        "Upfate_Agent": "به روز رسانی عامل",
+
+    "Basic_Information": "اطلاعات اولیه",
+        "Web_Address": "آدرس وب",
+        "Web_Content": "محتوای وب",
+        "Email_Address": "آدرس ایمیل",
+        "Hardware": "سخت افزار",
+        "Document_Packages": "بسته های اسناد",
+        "Document_Tagging": "برچسب گذاری اسناد",
+        "Encryption_Keys": "کلیدهای رمزگذاری",
+
+    "File_Access_Requests": "درخواست های دسترسی به فایل",
+    
+    "Logout" : "خروج",
+
+
+    "Dark_Mode": "حالت شب",
+    "Light_Mode": "حالت روز"
 }

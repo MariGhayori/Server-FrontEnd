@@ -48,7 +48,10 @@
     align-items: center;
   }
 
-  .sideMenuText {
-    text-align: left; /* Set text alignment to left */
-  }
-  
+.rtl-text {
+  text-align: right;
+}
+
+.wiidth {
+  width: 170vh;
+}

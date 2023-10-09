@@ -1,3 +1,83 @@
 {
-    "Welcome-to-React" : "Welcome"
+    "Brand_Name": "DLP Dashboard",
+    
+    "Dashboard": "Dashboard",
+
+    "Server_Management": "Server Management",
+            "SMS_Configuration": "SMS Configuration",
+            "Email_Configuration": "Email Configuration",
+            "Syslog_Servers": "Syslog Servers",
+            "Brand_Management": "Brand Management",
+            "System_Backup": "System Backup",
+            "Scheduled_Services": "Scheduled Services",
+            "SNMP_Settings": "SNMP Settings",
+            "Resource_Consumption_Notification_Settings": "Resource Consumption Notification Settings",
+            "NTP_Settings": "NTP Settings",
+
+    "Security" : "Security",
+        "Certificates": "Certificates",
+        "Login_Policies": "Login Policies",
+        "Password_Complexity_Settings": "Password Complexity Settings",
+        "IP_Based_Access_Policies": "IP-Based Access Policies",
+        "Authentication_System": "Authentication System",
+            "Active_Directory_LDAP": "Active-Directory/LDAP",
+            "Radius": "RADIUS",
+            "TACACS": "TACACS+",
+
+    "Reports" : "Reports",
+        "Security_Reports": "Security Reports",
+            "Login_Reports": "Login Reports",
+            "Blocked_IPs": "Blocked IPs",
+            "Users_Sessions": "User's Sessions",
+        "System_Reports": "System Reports",
+            "Registered_Logs": "Registered Logs",
+            "Messages_History": "Messages History",
+            "Consumption_of_Software_Resources": "Consumption of Software Resources",
+
+    "User_Management": "User Management",
+        "Users": "Users",
+        "Roles": "Roles",
+        "User_Groups": "User Groups",
+        "Manage_Role_Assignments": "Manage Role Assignments",
+
+    "Client_Management": "Client Management",
+            "Clients": "Clients",
+            "Group_of_Clients": "Group of Clients",
+        "Personel_Management": "Personel Management",
+            "Personel": "Personel",
+            "Group_of_Personel": "Group of Personel",
+            "Recover_Personel_From_AD_LDAP_Servers": "Recover Personel from AD/LDAP Servers",
+        "Organizational_Departments": "Organizational Departments",
+        "Key_Packages": "Key Packages",
+
+    "Policy_Management": "Policy Management",
+        "Printer_Control": "Printer Control",
+        "Pars_Keep_Control": "Pars Keep Control",
+        "Internet_Control": "Internet Control",
+        "Network_Control": "Network Control",
+        "Hardware_Control": "Hardware Control",
+        "Document_Control": "Document Control",
+        "Monitoring": "Monitoring",
+        "General_Settings_Policy": "General Settings Policy",
+
+    "Agent_Management": "Agent Management",
+        "Download_Agent_Installation_File": "Download Agent's Installation File",
+        "Upfate_Agent": "Update Agent",
+
+    "Basic_Information": "Basic Information",
+        "Web_Address": "Web Address",
+        "Web_Content": "Web Content",
+        "Email_Address": "Email_Address",
+        "Hardware": "Hardware",
+        "Document_Packages": "Document Packages",
+        "Document_Tagging": "Document Tagging",
+        "Encryption_Keys": "Encryption Keys",
+
+    "File_Access_Requests": "File Access Requests",
+
+    "Logout" : "Logout",
+
+
+    "Dark_Mode": "Dark Mode",
+    "Light_Mode": "Light Mode"
 }

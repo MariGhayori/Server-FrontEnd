@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
 import Switch from 'react-switch';
 import { ThemeContext } from '../../App';
+import { useCustomTranslation } from '../Language/useTranslation';
 
 import "./ThemeToggle.css";
 
 function ThemeToggle({ open }) {
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const { t } = useCustomTranslation();
 
   return (
     <div className=''>
@@ -23,7 +25,7 @@ function ThemeToggle({ open }) {
 
     {open && (
         <label className='labelMaster'> 
-            {theme === "light" ? "Light Mode" : "Dark Mode"} 
+            {theme === "light" ? t('Light_Mode') : t('Dark_Mode')} 
         </label>
     )}
     </div>

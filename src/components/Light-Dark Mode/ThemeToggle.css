@@ -1,7 +1,8 @@
 :root {
-    --light-bg-color: rgb(243, 243, 243);
-    --light-text-color: white;
-    --light-sidebar-bg: #503e9e;
+    --light-bg-color: rgb(241, 241, 241);
+    --light-text-color: black;
+    --light-sidebar-bg: rgb(28, 78, 128);
+    --light-sidebar-text-color: rgb(241, 241, 241);
     --light-sidebar-bg-hover: #ded6ff;
     --light-sidebar-text-hover: #1b1533;
 
@@ -18,6 +19,7 @@
 }
 #light .sidebarBG {
     background-color: var(--light-sidebar-bg);
+    color: var(--light-sidebar-text-color);
 }
 #light .sidebarLogo,
 #light .sidebarText ,
